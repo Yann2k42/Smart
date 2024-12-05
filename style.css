@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f4f8; /* Bleu clair pâle pour un fond AI-friendly */
+    color: #2c3e50; /* Bleu foncé élégant */
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #0d47a1; /* Bleu foncé profond pour les titres */
+}
+
+a {
+    color: #1565c0; /* Bleu vif pour les liens */
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(35deg, #0d47a1, #1976d2); /* Dégradé bleu foncé à clair */
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+section {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #0d47a1;
+}
+
+.promo-code {
+    color: #1976d2;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    color: #2c3e50;
+}
+
+a.btn {
+    display: inline-block;
+    background: #1976d2;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+a.btn:hover {
+    background: #0d47a1;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f8f9fa; /* Blanc doux */
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #1565c0;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.card a.btn-card {
+    background: #1565c0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #0d47a1;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Animations */
+header h1, header p {
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
